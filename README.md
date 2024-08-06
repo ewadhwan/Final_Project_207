@@ -1,7 +1,10 @@
 # Final_Project_207
-DataSCI 207 Final Project
+\begin{description}
+\item[ ] DataSCI 207 Final Project
 Team Members: Elana Wadhwani, Lia Cappellari, Branndon Marion
 Summer 2024 
+\end{description}
+
 
 Student dropout is a significant issue in the education system and can lead to several other problems in the future. High drop-out rates can contribute to a less skilled workforce, which in turn leads to higher unemployment rates and lower lifetime earnings. And then this not only affects the individual but also the overall economic growth of the community.  Secondly, increased drop-out rates are associated with higher crime rates and greater social dependency. Lastly, educational institutions also suffer when drop-out rates are high, as this negatively affects their reputation, funding, and morale. 
 

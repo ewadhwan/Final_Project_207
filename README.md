@@ -17,9 +17,9 @@ In our repository, you will find two Jupyter Notebooks. The first contains all o
 Analysis of Hyperparameter Tuning:
 
 Estimators:
-Increasing the number of trees (e.g., 1250) did not always improve performance.
-Models with 750 estimators often performed as well or better than those with 1250.
-Tested values: 500, 750, 1250.
+- Increasing the number of trees (e.g., 1250) did not always improve performance.
+- Models with 750 estimators often performed as well or better than those with 1250.
+- Tested values: 500, 750, 1250.
 Max Depth:
 Deeper trees (e.g., max depth of 30) often led to worse performance, indicating overfitting.
 Shallower trees (e.g., max depth of 20) performed better on validation and test sets.

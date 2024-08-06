@@ -40,4 +40,4 @@ This model demonstrated a good balance between complexity and generalization.
 The 5th model showed similar accuracies but with greater generalization ability.
 In conclusion, careful tuning of hyperparameters, such as the number of estimators, max depth, min samples split and leaf, and max features, is crucial for optimizing the performance of a Random Forest Classifier.
 
-![My Image](https://github.com/bmar97/Game-of-Thrones-NueralNet/blob/main/images/book_filter.png?raw=true)
+![My Image](https://github.com/ewadhwan/Final_Project_207/blob/main/RFC.experiments.png?raw=true)

@@ -27,7 +27,7 @@ In our repository, you will find two Jupyter Notebooks. The first contains all o
 3. Min Samples Split and Min Samples Leaf:
 - Smaller values for min_samples_split (e.g., 3) and min_samples_leaf (e.g., 2) generally improved performance.
 - Finer splits were necessary to effectively capture patterns in the data.
-- Tested values for min_samples_split: 3, 5, 6, 7, 9, 11.
+  - Tested values for min_samples_split: 3, 5, 6, 7, 9, 11.
   - Tested values for min_samples_leaf: 2, 4, 5, 7, 9, 11.
 4. Max Features:
 - The sqrt option for max_features consistently outperformed log2.

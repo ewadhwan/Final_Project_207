@@ -14,28 +14,28 @@ We downloaded our dataset from this link: https://archive.ics.uci.edu/dataset/69
 In our repository, you will find two Jupyter Notebooks. The first contains all of our exploratory data analysis and associated visuals. The second notebook contains our modeling and hyperparameter experiments. 
 
 
-Analysis of Hyperparameter Tuning:
+### Analysis of Hyperparameter Tuning:
 
-Estimators:
+1. Estimators:
 - Increasing the number of trees (e.g., 1250) did not always improve performance.
 - Models with 750 estimators often performed as well or better than those with 1250.
 - Tested values: 500, 750, 1250.
-Max Depth:
-Deeper trees (e.g., max depth of 30) often led to worse performance, indicating overfitting.
-Shallower trees (e.g., max depth of 20) performed better on validation and test sets.
-Tested values: 9, 12, 20, 25, 27, 30.
-Min Samples Split and Min Samples Leaf:
-Smaller values for min_samples_split (e.g., 3) and min_samples_leaf (e.g., 2) generally improved performance.
-Finer splits were necessary to effectively capture patterns in the data.
-Tested values for min_samples_split: 3, 5, 6, 7, 9, 11.
-Tested values for min_samples_leaf: 2, 4, 5, 7, 9, 11.
-Max Features:
-The sqrt option for max_features consistently outperformed log2.
-Considering a larger subset of features for each split improved performance.
-Tested values: 'log2', 'sqrt'.
-Summary of Best Performing Models:
+2. Max Depth:
+- Deeper trees (e.g., max depth of 30) often led to worse performance, indicating overfitting.
+- Shallower trees (e.g., max depth of 20) performed better on validation and test sets.
+- Tested values: 9, 12, 20, 25, 27, 30.
+3. Min Samples Split and Min Samples Leaf:
+- Smaller values for min_samples_split (e.g., 3) and min_samples_leaf (e.g., 2) generally improved performance.
+- Finer splits were necessary to effectively capture patterns in the data.
+- Tested values for min_samples_split: 3, 5, 6, 7, 9, 11.
+- Tested values for min_samples_leaf: 2, 4, 5, 7, 9, 11.
+4. Max Features:
+- The sqrt option for max_features consistently outperformed log2.
+- Considering a larger subset of features for each split improved performance.
+- Tested values: 'log2', 'sqrt'.
 
-The 8th model (750 estimators, max depth of 25, min samples split of 7, min samples leaf of 7, max features as 'sqrt') achieved the highest validation and test accuracies.
+Summary of Best Performing Models:
+- The 8th model (750 estimators, max depth of 25, min samples split of 7, min samples leaf of 7, max features as 'sqrt') achieved the highest validation and test accuracies.
 This model demonstrated a good balance between complexity and generalization.
 The 5th model showed similar accuracies but with greater generalization ability.
 In conclusion, careful tuning of hyperparameters, such as the number of estimators, max depth, min samples split and leaf, and max features, is crucial for optimizing the performance of a Random Forest Classifier.
